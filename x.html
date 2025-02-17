@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<script>
+    function verificarContraseña() {
+      const contraseñaCorrecta = "9";
+      const contraseñaIngresada = prompt("Ingrese la contraseña para acceder:");
+
+      if (contraseñaIngresada === contraseñaCorrecta) {
+        alert("¡Contraseña correcta! Bienvenido.");
+        // Continúa mostrando la página
+        document.getElementById("contenido").style.display = "block";
+      } else {
+       
+        // Redirige a otra página
+        window.location.href = "https://es.pornhub.com/";
+      }
+    }
+
+    // Llama a la función de verificación al cargar la página
+    window.onload = verificarContraseña;
+  </script>
+<style>
+    body {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    button {
+        width: 300px;
+        height: 40px;
+        margin-top: 30px;
+        border: none;
+    }
+</style>
+
+<body>
+    <a href="https://www.google.com/"> <button>Google</button></a>
+    <a href="https://www.google.com/" target="_blank"> <button>Google</button></a>
+    <a href="https://www.terabox.com/wap/outlogin/login" target="_blank"><button>Terabox</button></a>
+    <a href="https://www.instagram.com/" target="_blank"> <button>Google</button></a>
+
+</body>
+
+</html>
+Fto841212@@@
